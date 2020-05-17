@@ -43,13 +43,6 @@ public abstract class TestBase {
         flush();
     }
 
-//    @AfterSuite
-//    public void tearDown(){
-//        if (getWebDriver() != null) {
-//            getWebDriver().close();
-//        }
-//    }
-
     private String getScreenshot(String screenShotName) throws IOException {
         TakesScreenshot ts = (TakesScreenshot) getWebDriver();
         File source = ts.getScreenshotAs(OutputType.FILE);
