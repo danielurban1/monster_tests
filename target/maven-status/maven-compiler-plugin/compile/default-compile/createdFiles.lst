@@ -1,0 +1,16 @@
+pages\BasePage.class
+enums\SavedJobsPageWordings.class
+utils\UrlUtils.class
+utils\CustomWebDriverProvider.class
+models\JobOffer.class
+pages\HomePage.class
+pages\DashboardPage.class
+enums\URLs.class
+utils\TestDataGenerator.class
+api_requests\SeekerApi.class
+api_requests\models\GetByEmailResponseParams.class
+enums\GlobalTimeouts.class
+enums\BrowserSize.class
+pages\SearchPage.class
+pages\SavedJobsPage.class
+pages\AccountLitePage.class
