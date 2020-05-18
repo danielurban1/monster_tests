@@ -1,18 +1,12 @@
 package saving_jobs_process_tests;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import enums.BrowserSize;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-import org.testng.internal.TestResult;
 import utils.CustomWebDriverProvider;
-import utils.Reporter;
 
 import java.io.File;
 import java.io.IOException;
