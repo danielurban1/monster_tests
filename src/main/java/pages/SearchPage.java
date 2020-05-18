@@ -69,7 +69,8 @@ public class SearchPage extends BasePage{
     }
 
     public JobOffer getSelectedJobOfferDetails(){
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MMMM dd, yyyy", Locale.US);
+        //TODO time zone should be specify
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MMMM dd, yyyy");
         LocalDateTime now = LocalDateTime.now();
 
         JobOffer jobOffer = new JobOffer();
